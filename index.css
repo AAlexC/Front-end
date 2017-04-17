@@ -1,0 +1,52 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container {
+  background: #354052;
+  width:  215px;
+  height: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container .container{
+  width: 100%;
+  height: auto;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #30394a;
+}
+
+.menu-container .container .submenu {
+  margin-left: 10px;
+}
+
+.menu-container .container .submenu ul{
+  list-style: none;
+  
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+.profile-photo {
+  float: left;
+  width: 88px;
+  height: 88px;
+}
+
+.profile-name {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
