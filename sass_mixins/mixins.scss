@@ -28,4 +28,28 @@
   align-items: center;
 }
 
+// Responsive mixins
 
+@mixin xs-sm() {
+  @include mq($from: xs, $until: sm) {
+    @content
+  }
+}
+
+@mixin sm-md() {
+  @include mq($from: sm, $until: md) {
+    @content
+  }
+}
+
+@mixin md-lg() {
+  @include mq($from: md, $until: lg) {
+    @content
+  }
+}
+
+@mixin lg-lx() {
+  @include mq($from: lg, $until: xl) {
+    @content
+  }
+}
